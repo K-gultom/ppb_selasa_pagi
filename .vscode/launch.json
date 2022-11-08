@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "latihan_flutter1",
+            "cwd": "latihan_flutter1",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "latihan_flutter1 (profile mode)",
+            "cwd": "latihan_flutter1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "latihan_flutter1 (release mode)",
+            "cwd": "latihan_flutter1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "latihan_flutter2",
+            "cwd": "latihan_flutter2",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "latihan_flutter2 (profile mode)",
+            "cwd": "latihan_flutter2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "latihan_flutter2 (release mode)",
+            "cwd": "latihan_flutter2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
