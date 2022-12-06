@@ -12,8 +12,10 @@ class MyBottomBar extends StatelessWidget {
         child: Padding(
           padding: EdgeInsets.only(top: 6.0),
           child: Row(
-
             children: [
+              SizedBox(
+                width: 30.0,
+              ),
               Column(
                 children: [
                   Icon(FontAwesomeIcons.house),
@@ -23,7 +25,9 @@ class MyBottomBar extends StatelessWidget {
                   ),
                 ],
               ),
-
+              SizedBox(
+                width: 40.0,
+              ),
               Column(
                 children: [
                   Icon(FontAwesomeIcons.magnifyingGlass),
@@ -34,7 +38,7 @@ class MyBottomBar extends StatelessWidget {
                 ],
               ),
               SizedBox(
-                width: 200.0,
+                width: 160.0,
               ),
               Column(
                 children: [
@@ -45,6 +49,9 @@ class MyBottomBar extends StatelessWidget {
                   ),
                 ],
               ),
+              SizedBox(
+                width: 40.0,
+              ),
               Column(
                 children: [
                   Icon(FontAwesomeIcons.user),
@@ -53,6 +60,9 @@ class MyBottomBar extends StatelessWidget {
                     
                   ),
                 ],
+              ),
+              SizedBox(
+                width: 30.0,
               ),
             ]
           ),

@@ -5,7 +5,7 @@ class ItemCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(right: 8.0),
+      padding: EdgeInsets.only(right: 10.0),
       child: Container(
         width: 180,
         height: 160,
@@ -23,14 +23,14 @@ class ItemCard extends StatelessWidget {
               width: 300.0,
               decoration: BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [Colors.black.withOpacity(0.1)],
+                  colors: [Colors.black.withOpacity(0.5)],
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                 ),
               ),
             ),
             Padding(
-              padding: EdgeInsets.only(right: 16.0),
+              padding: EdgeInsets.only(right: 16.0, bottom: 15.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
