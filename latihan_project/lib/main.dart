@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
+
 import 'pages/myactionbutton.dart';
 import 'pages/mybottombar.dart';
+import 'pages/foodlistview.dart';
+import 'pages/myappbar.dart';
+import 'pages/selecttypesection.dart';
+import 'pages/menuitemlist.dart';
 
 void main() {
   runApp(const MyApp());
+  
 }
 
 class MyApp extends StatelessWidget {
@@ -13,6 +19,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+
       title: 'Project UI',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
@@ -37,10 +44,13 @@ class ProjectPage extends StatelessWidget {
 
             SizedBox(height: 16.0,),
             MyAppBar(),
+
             SizedBox(height: 16.0,),
             FoodListView(),
+
             SizedBox(height: 16.0,),
             SelectTypeSection(),
+
             SizedBox(height: 16.0,),
             MenuItemList(),
 

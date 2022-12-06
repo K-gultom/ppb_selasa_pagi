@@ -34,7 +34,7 @@ class MyBottomBar extends StatelessWidget {
                 ],
               ),
               SizedBox(
-                width: 100.0,
+                width: 200.0,
               ),
               Column(
                 children: [
