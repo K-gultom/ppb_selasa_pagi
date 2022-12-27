@@ -11,6 +11,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+
+      //menghilangkan Debug view pada app-bar
+      debugShowCheckedModeBanner: false,
+      
+
       theme: ThemeData(
         
         primarySwatch: Colors.green,
@@ -83,7 +88,7 @@ class _IphonePageState extends State<IphonePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Hello You ...',         
+          'Hello You !! ...',         
         ),
       ),
       body: Container(

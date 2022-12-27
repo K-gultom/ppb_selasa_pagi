@@ -41,23 +41,24 @@ class _ListViewPage extends State<ListViewPage> {
       body: ListView(children: [
         //genap biru
         //ganjil merah
-        for (int i = 1; i <= 10; i++) ...[
-          Container(
-            height: 250,
-            decoration: BoxDecoration(
-              color: i % 2 != 0 ? Colors.red : Colors.blue,
-            ),
-            child: Center(
-              child: Text(
-                '$i',
-                style: TextStyle(
-                  fontSize: 40,
+          for (int i = 1; i <= 10; i++) ...[
+            Container(
+              height: 250,
+              decoration: BoxDecoration(
+                color: i % 2 != 0 ? Colors.red : Colors.blue,
+              ),
+              child: Center(
+                child: Text(
+                  '$i',
+                  style: TextStyle(
+                    fontSize: 40,
+                  ),
                 ),
               ),
             ),
-          ),
-        ],
-      ]),
+          ],
+        ]
+      ),
 
       /*body:ListView(
         scrollDirection: Axis.horizontal,
